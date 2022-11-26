@@ -1,0 +1,16 @@
+<div class="single_task">
+    
+    
+    <p class="p11"><%= item.name %></p> 
+
+    <% if(item.completed){var k =true;}else{ k=false;} %>
+
+    <form action="/api/v1/tasks/update/<%= item._id %>" method="POST">
+        <input class="snd_inp" type="text" placeholder="enter text" name="todo" class="form-text">
+        <input type="checkbox" name ="check" <% if(k){%>checked<%} %>>
+        <input class="snd_btn" type="submit" value="Update Task">
+    </form>
+
+
+<p class="p12">* checkbox if the task is completed XD!</p>
+</div>

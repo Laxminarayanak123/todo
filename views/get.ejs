@@ -1,0 +1,35 @@
+<!-- we will write the body here -->
+
+<div class="container">
+    <form  action="/api/v1/tasks" method="POST">
+    <div class="inp">
+        <input  type="text" placeholder="    enter text" name="todo" class="form-text">
+    </div>
+    <div >
+        <input class="inp_btn" type="submit" value="Add Task">
+    </div>   
+    </form>
+
+    <ul style="list-style-type: none">
+
+        <% 
+        let i=0;
+        for(i=0;i<todo.length;i++){ %>
+            <a href="/api/v1/tasks/<%= todo[i]._id %>">
+                <li <% if(todo[i].completed == true){%> style="text-decoration:line-through" <% } %> >
+                         <%=todo[i].name %></li>
+            </a>
+
+
+            <a class="delete_btn" href="/api/v1/tasks/delete/<%= todo[i]._id %>">
+                &#9940
+            </a>
+            <% } %>
+    </ul>
+
+
+    
+
+
+
+</div>

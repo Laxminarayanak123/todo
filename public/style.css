@@ -1,0 +1,132 @@
+.one {
+    background-color: blue;
+    color: darkorchid;
+}
+
+
+.full_body{
+    margin:auto;
+    height:100%;
+    /* padding-top: 100px; */
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+body{
+    background-color: black;
+}
+
+.header{
+    margin-top: 25px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    background-color: lightslategray;
+    color: darksalmon;
+}
+.footer{
+    margin-bottom: 0px;
+    margin-top: 320px;
+    position: fixed;
+    width:250px;
+    margin-left: 510px;
+    /* background-color: lightslategray; */
+    color: darkcyan;
+
+    font-weight: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+.container{
+    width: 1000px;
+    display: block;
+    /* background-color: black; */
+}
+
+.inp input{
+    width: 400px;
+    height: 23px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    border-color: black;
+}
+.inp_btn{
+    border-radius:70px;
+    border-style: solid;
+    background-color:greenyellow;
+    /* color: cadetblue; */
+    color: darkgray;
+    border-color:green;
+    cursor: pointer;
+}
+ul{
+    display: block;
+}
+li{
+    background-color: blanchedalmond;
+    text-align: left;
+    width: 980px;
+    height: 40px;
+    padding-top: 7px;
+    padding-bottom: 0px;
+    margin-right: 150px;
+    margin-left: -40px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding-left: 35px;
+    /* border: 1px solid black; */
+    /* border-radius: 50px; */
+}
+
+
+.delete_btn{
+    display: block;
+    position: absolute;
+    margin-left: 875px;
+    margin-top: -60px;
+    /* margin-bottom: 1000px; */
+    font-size: 25px;    
+    cursor: default;
+}
+
+
+a:link{
+    text-decoration: none;
+    color: darkcyan;
+}
+a:active{
+    color:darkcyan ;
+}
+a:visited{
+    color: darkcyan;
+}
+
+
+.p11{
+    font-size: 50px;
+}
+.snd_inp{
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    /* border-color: black; */
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.snd_btn{
+    height: 30px;
+    margin-left: 60px;
+    border-radius:70px;
+    border-style: solid;
+    background-color:blue;
+    color: azure;
+    border-color:blue;
+}
+.p12{
+    margin-top: 180px;
+    font-size: 15px;
+    color: red;
+}
